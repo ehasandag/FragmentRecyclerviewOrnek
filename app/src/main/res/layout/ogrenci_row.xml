@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textAdSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingStart="20dp"
+        android:textStyle="bold"
+        android:text="Ad Soyad"
+        android:textSize="24sp"
+        android:textColor="#904E55"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textSinif"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Sınıfı"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="3dp"
+            android:paddingStart="20dp"
+            android:textColor="#4C5454"
+          />
+        <TextView
+            android:id="@+id/textOkulNo"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Okul Numarası"
+            android:textSize="18sp"
+            android:paddingStart="20dp"
+            android:textStyle="bold"
+            android:paddingBottom="3dp"
+
+            android:textColor="#1ea896"
+
+            />
+        <TextView
+            android:id="@+id/textYas"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Yaş"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingStart="20dp"
+            android:paddingBottom="3dp"
+
+            android:textColor="#1ea896"
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
